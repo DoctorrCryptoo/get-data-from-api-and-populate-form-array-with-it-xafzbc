@@ -9,6 +9,8 @@
       "projectType": "application",
       "prefix": "app",
       "schematics": {},
+      "schematics": {},
+      "schematics": {},
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -42,7 +44,7 @@
               "namedChunks": false,
               "aot": true,
               "extractLicenses": true,
-              "vendorChunk": false,
+              "vendorChunk": true,
               "buildOptimizer": true
             }
           }
